@@ -1,0 +1,13 @@
+// converting if.... else statement to Tenary statement
+
+//This is if....else statement
+let isCorrect = true;
+
+if (isCorrect) {
+  console.log('Correct!');
+} else {
+  console.log('Incorrect!');
+}
+
+//This is the Tenary statement
+isCorrect ? console.log('Correct!') : console.log('Incorrect!');
